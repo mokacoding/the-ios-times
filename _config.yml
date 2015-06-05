@@ -3,6 +3,6 @@ title: The iOS Times
 email: gio@mokacoding.com
 description: >
   A weekly publication with news and trending projects in the open source iOS ecosystem. Curated and provided by mokagio from mokacoding.com
-baseurl: ""
+baseurl: "/mercury"
 
 markdown: kramdown
