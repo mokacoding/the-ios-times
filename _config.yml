@@ -4,6 +4,7 @@ email: gio@mokacoding.com
 description: >
   A weekly publication with news and trending projects in the open source iOS ecosystem. Curated and provided by mokagio from mokacoding.com
 baseurl: ""
+permalink: none
 
 # Build settings
 markdown: kramdown
