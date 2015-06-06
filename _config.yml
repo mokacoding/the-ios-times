@@ -5,4 +5,18 @@ description: >
   A weekly publication with news and trending projects in the open source iOS ecosystem. Curated and provided by mokagio from mokacoding.com
 baseurl: "/mercury"
 
+# Build settings
 markdown: kramdown
+highlighter: pygments
+
+kramdown:
+  auto_ids:      true
+  footnote_nr:   1
+  entity_output: as_char
+  toc_levels:    1..6
+  smart_quotes:  lsquo,rsquo,ldquo,rdquo
+  use_coderay:   false
+  input:         GFM
+  use_coderay:   true
+  coderay:
+    coderay_line_numbers:  nil
