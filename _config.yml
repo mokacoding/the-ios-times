@@ -6,6 +6,9 @@ description: >
 baseurl: ""
 permalink: none
 
+github:
+  repo: https://github.com/mokacoding/the-ios-times
+
 # Build settings
 markdown: kramdown
 highlighter: pygments
