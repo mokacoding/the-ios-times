@@ -20,5 +20,13 @@
       ga('create', 'UA-43554041-9', 'auto');
       ga('send', 'pageview');
     </script>
+    <script>
+    var external_links = document.querySelectorAll('a:not([href^="/"]):not([href$="#mc_embed_signup"])');
+    // external_links is an HTMLCollection, not an Array, so we can't call forEach
+    for (var i = 0; i < external_links.length; i++) {
+      var link = external_links[i];
+      link.setAttribute("target", "_blank");
+    }
+    </script>
   </body>
 </html>
