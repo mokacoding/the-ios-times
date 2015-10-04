@@ -400,3 +400,8 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+/* Th iOS Times */
+.share-container {
+  margin: 32px 0;
+}
