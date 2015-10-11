@@ -1,0 +1,13 @@
+{% assign root = 'http://theiostimes.com' %}
+{% if post %}
+  {% assign url = root | append: post.url %}
+{% else %}
+  {% assign url = root | append: page.url %}
+{% endif %}
+
+<script type="text/javascript">
+  reddit_url="{{ url }}
+  reddit_target="iOSProgramming"
+  reddit_newwindow='1';
+</script>
+<script type="text/javascript" src="//www.redditstatic.com/button/button1.js"></script>

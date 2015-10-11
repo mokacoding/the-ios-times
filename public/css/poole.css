@@ -401,7 +401,11 @@ a.pagination-item:hover {
   }
 }
 
-/* Th iOS Times */
+/* The iOS Times */
 .share-container {
   margin: 32px 0;
+}
+
+iframe[src*="reddit"] {
+  padding-top: 2px;
 }

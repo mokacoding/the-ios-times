@@ -8,9 +8,15 @@ layout: default
   <div class="post">
     <h1 class="post-title">{{ post.title }}</h1>
     <span class="post-date">{{ post.date | date_to_string }}</span>
-    <div class="share-container">{% include tweet_button.html %}</div>
+    <div class="share-container">
+      {% include tweet_button.html %}
+      {% include reddit_button.html %}
+    </div>
     {{ post.content }}
-    <div class="share-container">{% include tweet_button.html %}</div>
+    <div class="share-container">
+      {% include tweet_button.html %}
+      {% include reddit_button.html %}
+    </div>
   </div>
 
   <p class="rss-subscribe">
