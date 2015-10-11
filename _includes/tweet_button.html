@@ -1,8 +1,15 @@
+{% assign root = 'http://theiostimes.com' %}
+{% if post %}
+  {% assign url = root | append: post.url %}
+{% else %}
+  {% assign url = root | append: page.url %}
+{% endif %}
+
 <a class='twitter-share-button'
   href="https://twitter.com/share"
-  data-url="http://theiostimes.com{{ page.url }}"
+  data-url="{{ url }}"
   data-via="_theiostimes"
-  datacount-url="http://theiostimes.com{{ page.url }}"
+  datacount-url="{{ url }}"
   data-text="Checkout this week's most interesting #iosdev #swiftlang open source projects">
   Tweet
 </a>
