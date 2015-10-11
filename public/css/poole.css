@@ -402,6 +402,11 @@ a.pagination-item:hover {
 }
 
 /* The iOS Times */
+ul.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
 .share-container {
   margin: 32px 0;
 }
