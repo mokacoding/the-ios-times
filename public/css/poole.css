@@ -414,3 +414,8 @@ ul.post-list {
 iframe[src*="reddit"] {
   padding-top: 2px;
 }
+
+/* The iOS Times - MailChimp Form */
+#mc_embed_signup_scroll {
+  margin-bottom: 20px;
+}
