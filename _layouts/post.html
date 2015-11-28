@@ -7,11 +7,8 @@ layout: default
     <a href="{{ site.url | append: page.url }}">{{ page.title }}</a>
   </h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
-  <div class="share-container">
-    {% include tweet_button.html %}
-    {% include reddit_button.html %}
-  </div>
   {{ content }}
+  {% include mailchimp-form.html %}
   <div class="share-container">
     {% include tweet_button.html %}
     {% include reddit_button.html %}
