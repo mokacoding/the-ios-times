@@ -4,17 +4,19 @@ layout: default
 
 <div class="home">
 
-  {% assign post = site.posts[0] %}
+  {% for p in site.posts %}
+    {% if p.category != "advent-calendar" %}
+      {% assign post = p %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
   <div class="post">
     <h1 class="post-title">
       <a href="{{ site.url | append: post.url }}">{{ post.title }}</a>
     </h1>
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-    <div class="share-container">
-      {% include tweet_button.html %}
-      {% include reddit_button.html %}
-    </div>
-    {{ post.content }}
+    <span class="post-date">{{ post.date | date_to_string  }}</span>
+    {{ post.content | markdownify }}
     <div class="share-container">
       {% include tweet_button.html %}
       {% include reddit_button.html %}

@@ -10,8 +10,7 @@ github:
   repo: https://github.com/mokacoding/the-ios-times
 
 # Build settings
-markdown: redcarpet
-highlighter: rouge
+highlighter: pygments
 
 kramdown:
   auto_ids:       true
