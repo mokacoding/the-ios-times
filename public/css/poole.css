@@ -497,3 +497,10 @@ ul.thick-list {
 #mc_embed_signup_advent label {
   color: rgba(255, 255, 255, 0.95);
 }
+
+h1, h2, h3, h4 {
+  color: #515151;
+}
+.page-title, .post-title, .post-title {
+  color: #515151;
+}
