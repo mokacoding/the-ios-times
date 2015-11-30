@@ -8,11 +8,11 @@ layout: default
   </h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
-  {% include mailchimp-form.html %}
   <div class="share-container">
     {% include tweet_button.html %}
     {% include reddit_button.html %}
   </div>
+  {% include mailchimp-form.html %}
 </div>
 
 <div id="disqus_thread"></div>
