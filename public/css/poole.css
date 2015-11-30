@@ -410,9 +410,17 @@ ul.post-list {
 .share-container {
   margin: 32px 0;
 }
+.share-container div {
+  display: inline-block;
+}
 
 iframe[src*="reddit"] {
   padding-top: 2px;
+}
+
+.share-container .fb-share-button iframe {
+  margin-top: -9px;
+  margin-left: -5px;
 }
 
 ul.thick-list {

@@ -26,4 +26,15 @@
 
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
   <script src="//load.sumome.com/" data-sumo-site-id="f50121dd94d6809cad4513168bac20ac44d01d9f50880cbfd930675b8692a3b8" async="async"></script>
+
+  {% assign root = 'http://theiostimes.com' %}
+  {% if post %}
+    {% assign url = root | append: post.url %}
+  {% else %}
+    {% assign url = root | append: page.url %}
+  {% endif %}
+  <meta property="og:url"           content="{{ url }}" />
+  <meta property="og:type"          content="article" />
+  <meta property="og:title"         content="{{ title }}" />
+  <meta property="og:site_name"     content="The iOS Times" />
 </head>
