@@ -402,6 +402,13 @@ a.pagination-item:hover {
 }
 
 /* The iOS Times */
+
+img {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 ul.post-list {
   list-style: none;
   padding-left: 0;
@@ -491,7 +498,7 @@ ol li:before {
   min-width: 130px;
 }
 #mc_embed_signup_advent input.button {
-  display:block; 
+  display:block;
   width:35%;
   margin:24px 0 8px 0;
   min-width:90px;
