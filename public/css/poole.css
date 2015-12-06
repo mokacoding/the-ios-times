@@ -402,6 +402,12 @@ a.pagination-item:hover {
 }
 
 /* The iOS Times */
+pre {
+  /* Make the code blocks scroll horizontally */
+  overflow-x: scroll;
+  white-space: pre;
+  word-wrap: normal;
+}
 
 img {
   max-width: 100%;
