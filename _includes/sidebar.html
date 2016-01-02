@@ -1,17 +1,13 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h1>{{ site.title }} 🎄</h1>
+      <h1>{{ site.title }}</h1>
       <p class="lead">
       A weekly publication with news and trending projects in the open source iOS ecosystem. Curated by <a href="http://twitter.com">mokagio</a> from <a href="http://mokacoding.com">mokacoding.com</a>
       </p>
     </div>
 
     <ul class="sidebar-nav">
-
-      <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
-        <a href="/advent-calendar.html">🎅 Advent Calendar 🎅</a>
-      </li>
 
       <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
         <a href="/">Home</a>
@@ -35,6 +31,10 @@
 
       <li class="sidebar-nav-item"><a href="{{ site.baseurl }}subscribe.html">Subscribe</a></li>
       <li class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub</a></li>
+      <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
+        <a href="/advent-calendar.html">Advent Calendar 2015</a>
+      </li>
+
     </ul>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
