@@ -10,7 +10,7 @@ github:
   repo: https://github.com/mokacoding/the-ios-times
 
 # Build settings
-highlighter: pygments
+markdown: kramdown
 
 kramdown:
   auto_ids:       true
@@ -20,5 +20,6 @@ kramdown:
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   input:          GFM
+  syntax_highlighter: rouge
 
 future: true
