@@ -22,4 +22,4 @@ kramdown:
   input:          GFM
   syntax_highlighter: rouge
 
-future: true
+timezone: Australia/Melbourne
