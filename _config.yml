@@ -20,3 +20,5 @@ kramdown:
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   input:          GFM
+
+future: true
